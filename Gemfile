@@ -13,7 +13,7 @@ gem "bootsnap", require: false
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
-  gem "rspec-rails", "~> 6.0.0"
+  gem "rspec-rails", "~> 7.0.1"
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
 end
